@@ -1,5 +1,6 @@
 <template>
   <q-page padding>
+    <p class="text-h6">Table</p>
     <q-table
       flat
       bordered
@@ -81,5 +82,3 @@ onMounted(() => {
   loadTable();
 });
 </script>
-
-<style scoped></style>

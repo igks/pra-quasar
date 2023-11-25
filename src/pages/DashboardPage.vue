@@ -27,7 +27,7 @@
 
     <div v-if="state.options.dataset.source.length">
       <q-card class="no-shadow" bordered>
-        <q-card-section class="text-h6"> Line Chart </q-card-section>
+        <q-card-section class="text-h6"> Chart </q-card-section>
         <q-card-section>
           <ECharts
             :option="state.options"
@@ -94,5 +94,3 @@ onMounted(() => {
   loadDashboard();
 });
 </script>
-
-<style scoped lang="scss"></style>

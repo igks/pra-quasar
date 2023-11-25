@@ -52,6 +52,11 @@ const essentialLinks: EssentialLinkProps[] = [
     icon: 'list',
     path: '/table',
   },
+  {
+    title: 'Form',
+    icon: 'receipt',
+    path: '/form',
+  },
 ];
 
 const leftDrawerOpen = ref(false);
